@@ -22,6 +22,7 @@
       :style="stylesBackGround"
       class="vs-button-backgroundx vs-button--background">
     </span>
+    sadasdsa
 
     <vs-icon
       v-if="icon"
@@ -246,7 +247,7 @@ export default {
           this.isActive = false
         }
       });
-      
+
     },
     clickButton(event){
       this.$emit('click', event)
@@ -301,7 +302,7 @@ export default {
           }, this.time * 1100)
         }
       });
-      
+
 
     },
     isColor(){
