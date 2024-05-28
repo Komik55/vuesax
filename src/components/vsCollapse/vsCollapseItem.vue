@@ -91,6 +91,7 @@ export default {
     }
   },
   mounted () {
+    alert('Yoo');
     window.addEventListener('resize', this.changeHeight)
     const maxHeightx = this.$refs.content.scrollHeight
     if(this.open) {
